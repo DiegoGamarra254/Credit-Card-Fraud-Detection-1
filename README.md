@@ -1,6 +1,7 @@
-<p align="justify">
+
 # Credit Card Fraud Detection Using Machine Learning Algorithms
 ## Project Overview: 
+<p align="justify">
 The goal of this project is to evaluate different machine learning models to detect fraudulent credit card transactions. Credit card fraud is a significant problem for financial institutions and consumers, and early detection of fraudulent transactions is crucial to prevent financial losses. In this project, we will evaluate three different supervised machine learning algorithms — Random Forest, Logistic Regression, and Support Vector Machine (SVM) — to identify patterns in transaction data that indicate fraud. However, the actual implementation of the selected model will be undertaken in a separate project.
 
 Dataset: The dataset consists of anonymized transaction records, with each record containing various features (e.g., transaction amount, time of transaction, and other anonymized features) along with a binary label indicating whether the transaction was legitimate (0) or fraudulent (1). It was downloaded from https://www.kaggle.com/datasets/dhanushnarayananr/credit-card-fraud/data
@@ -49,6 +50,7 @@ A robust classification algorithm that finds an optimal hyperplane to separate f
 
 
 ### Model Evaluation:
+<p align="justify">
 In this step we evaluate each model's performance using metrics such as accuracy, precision, recall, and F1-score. The goal is to balance these metrics to minimize false positives (incorrectly flagging a legitimate transaction as fraud) and false negatives (failing to detect actual fraud). We got better results with Support Vector Machine (SVM) considering that it was trained with a subset of the data. As it was mentioned previosly the implementation will be undertaken in a subsequent project.
 
 #### Logistic Regression - Evaluation Metrics
