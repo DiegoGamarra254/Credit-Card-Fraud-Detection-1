@@ -67,7 +67,7 @@ In this step we evaluate each model's performance using metrics such as accuracy
 </p>
 
 
-# Credit Card Fraud Detection Using Machine Learning Algorithms
+# Detección de fraude en tarjetas de crédito usando algoritmos de Machine Learning.
 ## Descripción del Proyecto:
 <p align="justify"> 
 El objetivo de este proyecto es evaluar diferentes modelos de aprendizaje automático para detectar transacciones fraudulentas con tarjetas de crédito. El fraude con tarjetas de crédito es un problema significativo para las instituciones financieras y los consumidores, y la detección temprana de transacciones fraudulentas es crucial para prevenir pérdidas financieras. En este proyecto, evaluaremos tres algoritmos diferentes de aprendizaje supervisado — Random Forest, Regresión Logística, y Máquina de Vectores de Soporte (SVM) — para identificar patrones en los datos de transacciones que indiquen fraude. Sin embargo, la implementación real del modelo seleccionado se llevará a cabo en un proyecto separado.
