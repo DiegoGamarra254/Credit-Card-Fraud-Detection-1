@@ -29,12 +29,12 @@ fraud - Is the transaction fraudulent.
 
 - Clean and preprocess the data, handling missing values and scaling numerical features for better model performance. (In this scenario, data was already cleaned and complete)
 - EDA: In this step we found that Fraud was strongly correlated to 'Ratio to median purchase price' also:
-  Total Transactions 1000000
-  total fraud cases 87403.0
-  total chip frauds 22410.0 out of 1000000
-  total pin frauds 273.0 out of 1000000
-  Fraud rate for online transactions: 12.71% (82711 cases out of 650552.0 online  transactions)
-  Fraud rate for offline transactoins: 1.34% (4692 cases out of 349448.0 offline  transactions)
+   - Total Transactions 1000000
+   - total fraud cases 87403.0
+   - total chip frauds 22410.0 out of 1000000
+   - total pin frauds 273.0 out of 1000000
+   - Fraud rate for online transactions: 12.71% (82711 cases out of 650552.0 online  transactions)
+   - Fraud rate for offline transactoins: 1.34% (4692 cases out of 349448.0 offline  transactions)
 - Split the dataset into training and testing sets to evaluate model performance.
   
 ### Model Training:
@@ -51,13 +51,13 @@ A robust classification algorithm that finds an optimal hyperplane to separate f
 In this step we evaluate each model's performance using metrics such as accuracy, precision, recall, and F1-score. The goal is to balance these metrics to minimize false positives (incorrectly flagging a legitimate transaction as fraud) and false negatives (failing to detect actual fraud). We got better results with Support Vector Machine (SVM) considering that it was trained with a subset of the data. As it was mentioned previosly the implementation will be undertaken in a subsequent project.
 
 #### Logistic Regression - Evaluation Metrics
-Precision: 0.8902
-Recall: 0.5974
-F1 Score: 0.7150
-Accuracy: 0.9585
+- Precision: 0.8902
+- Recall: 0.5974
+- F1 Score: 0.7150
+- Accuracy: 0.9585
 
 #### Support Vector Machine - Evaluation Metrics
-Precision: 0.8978
-Recall: 0.5834
-F1 Score: 0.7073
-Accuracy: 0.9579
+- Precision: 0.8978
+- Recall: 0.5834
+- F1 Score: 0.7073
+- Accuracy: 0.9579
